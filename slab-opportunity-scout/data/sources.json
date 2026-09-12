@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Unstop Hackathons",
+    "url": "https://unstop.com/hackathons/amp",
+    "enabled": true
+  },
+  {
+    "name": "Devpost AI Hackathons",
+    "url": "https://devpost.com/c/artificial-intelligence",
+    "enabled": true
+  },
+  {
+    "name": "Devpost Open Hackathons",
+    "url": "https://devpost.com/hackathons?status=open",
+    "enabled": true
+  }
+]

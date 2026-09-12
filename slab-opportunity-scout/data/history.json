@@ -1,0 +1,40 @@
+[
+  {
+    "at": "2026-09-12T08:10:27.176Z",
+    "query": "AI browser agents hackathon student India",
+    "itemCount": 60,
+    "sourceStatus": [
+      {
+        "name": "Unstop Hackathons",
+        "ok": true
+      },
+      {
+        "name": "Devpost AI Hackathons",
+        "ok": true
+      },
+      {
+        "name": "Devpost Open Hackathons",
+        "ok": true
+      }
+    ]
+  },
+  {
+    "at": "2026-09-12T08:09:47.425Z",
+    "query": "AI browser agents hackathon student India",
+    "itemCount": 60,
+    "sourceStatus": [
+      {
+        "name": "Unstop Hackathons",
+        "ok": true
+      },
+      {
+        "name": "Devpost AI Hackathons",
+        "ok": true
+      },
+      {
+        "name": "Devpost Open Hackathons",
+        "ok": true
+      }
+    ]
+  }
+]

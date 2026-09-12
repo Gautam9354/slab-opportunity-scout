@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>SLAB Opportunity Scout</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="orb orb-a"></div><div class="orb orb-b"></div>
+  <main>
+    <nav>
+      <div class="brand"><span class="mark">S</span><div><b>Opportunity Scout</b><small>Built on webcmd · SLAB @ MUIT Noida</small></div></div>
+      <div id="health" class="pill neutral">Checking webcmd…</div>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <p class="eyebrow">SELF-LEARNING BROWSER AGENT</p>
+        <h1>Stop hunting opportunities.<br><span>Let the browser do it.</span></h1>
+        <p class="sub">Research hackathons, internships and scholarships across real websites, extract the useful parts, and surface what changed since the last run.</p>
+      </div>
+      <div class="score-card">
+        <div><strong>READ-ONLY</strong><span>No hidden submissions</span></div>
+        <div><strong>RECOVERY</strong><span>One bad source ≠ failed run</span></div>
+        <div><strong>MEMORY</strong><span>Reuses a Webcmd profile</span></div>
+      </div>
+    </section>
+
+    <section class="panel controls">
+      <label>What are you looking for?</label>
+      <div class="query-row">
+        <input id="query" value="AI browser agents hackathon student India" maxlength="160" />
+        <button id="scanBtn">Run live agent <span>↗</span></button>
+      </div>
+      <div class="chips"><button data-q="AI hackathon Noida Delhi student">AI hackathons</button><button data-q="software engineering internship India student">Internships</button><button data-q="scholarship computer science student India">Scholarships</button></div>
+      <div class="source-head"><label>Sources</label><button id="addSource" class="ghost">+ Add URL</button></div>
+      <div id="sources" class="sources"></div>
+    </section>
+
+    <section id="runArea" class="run-area hidden">
+      <div class="run-top"><div><p class="eyebrow">LIVE EXECUTION</p><h2 id="runTitle">Agent is browsing…</h2></div><div id="timer" class="timer">00.0s</div></div>
+      <div id="steps" class="steps"></div>
+    </section>
+
+    <section id="stats" class="stats hidden"></section>
+
+    <section class="results-wrap">
+      <div class="result-head"><div><p class="eyebrow">SHORTLIST</p><h2>Useful opportunities</h2></div><div class="legend"><span><i class="new"></i>New</span><span><i class="changed"></i>Changed</span></div></div>
+      <div id="empty" class="empty">Run the live agent to build your shortlist.</div>
+      <div id="results" class="results"></div>
+    </section>
+
+    <section class="panel safety">
+      <div class="shield">✓</div>
+      <div><b>Human approval boundary</b><p>This project automates research only. Applying, registering, sending messages, submitting forms, purchases, deletions and payments stay with the human.</p></div>
+    </section>
+  </main>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
